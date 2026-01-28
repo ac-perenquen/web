@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    overflow: hidden;
+    background: radial-gradient(ellipse at bottom,
+            #0d0e24 60%,
+            #673caa 100%);
+            
+}
+
+.sky {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+}
+
+.sky::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background:
+        radial-gradient(circle at 30% 40%, rgba(80, 120, 255, 0.08), transparent 40%),
+        radial-gradient(circle at 70% 60%, rgba(120, 160, 255, 0.06), transparent 45%),
+        radial-gradient(circle at 50% 20%, rgba(100, 140, 255, 0.05), transparent 50%);
+    filter: blur(40px);
+}
+
+.sky::after {
+    content: "";
+    position: absolute;
+    width: 200%;
+    height: 200%;
+    top: -50%;
+    left: -50%;
+    background: linear-gradient(120deg,
+            transparent 45%,
+            rgba(255, 255, 255, 0.04) 50%,
+            transparent 55%);
+    transform: rotate(-15deg);
+}
+
+.stars {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1px;
+    height: 1px;
+    background: white;
+    animation: twinkle 3s infinite alternate;
+    box-shadow:
+        1vw 1vh white, 5vw 2vh white, 9vw 3vh white, 13vw 4vh white, 17vw 5vh white,
+        21vw 6vh white, 25vw 7vh white, 29vw 8vh white, 33vw 9vh white, 37vw 10vh white,
+        41vw 11vh white, 45vw 12vh white, 49vw 13vh white, 53vw 14vh white, 57vw 15vh white,
+        61vw 16vh white, 65vw 17vh white, 69vw 18vh white, 73vw 19vh white, 77vw 20vh white,
+        81vw 21vh white, 85vw 22vh white, 89vw 23vh white, 93vw 24vh white, 97vw 25vh white,
+
+        2vw 28vh white, 6vw 30vh white, 10vw 32vh white, 14vw 34vh white, 18vw 36vh white,
+        22vw 38vh white, 26vw 40vh white, 30vw 42vh white, 34vw 44vh white, 38vw 46vh white,
+        42vw 48vh white, 46vw 50vh white, 50vw 52vh white, 54vw 54vh white, 58vw 56vh white,
+        62vw 58vh white, 66vw 60vh white, 70vw 62vh white, 74vw 64vh white, 78vw 66vh white,
+        82vw 68vh white, 86vw 70vh white, 90vw 72vh white, 94vw 74vh white, 98vw 76vh white,
+
+        3vw 80vh white, 7vw 82vh white, 11vw 84vh white, 15vw 86vh white, 19vw 88vh white,
+        23vw 90vh white, 27vw 92vh white, 31vw 94vh white, 35vw 96vh white, 39vw 98vh white,
+        43vw 85vh white, 47vw 83vh white, 51vw 81vh white, 55vw 79vh white, 59vw 77vh white,
+        63vw 75vh white, 67vw 73vh white, 71vw 71vh white, 75vw 69vh white, 79vw 67vh white,
+        83vw 65vh white, 87vw 63vh white, 91vw 61vh white, 95vw 59vh white, 99vw 57vh white,
+
+        4vw 5vh white, 12vw 12vh white, 20vw 8vh white, 28vw 15vh white, 36vw 6vh white,
+        44vw 18vh white, 52vw 10vh white, 60vw 22vh white, 68vw 12vh white, 76vw 19vh white,
+        84vw 7vh white, 92vw 16vh white, 3vw 30vh white, 11vw 34vh white, 19vw 32vh white,
+        27vw 38vh white, 35vw 36vh white, 43vw 40vh white, 51vw 42vh white, 59vw 44vh white,
+        67vw 46vh white, 75vw 48vh white, 83vw 50vh white, 91vw 52vh white, 99vw 54vh white,
+        2vw 60vh white, 10vw 62vh white, 18vw 65vh white, 26vw 68vh white, 34vw 70vh white,
+        42vw 72vh white, 50vw 74vh white, 58vw 76vh white, 66vw 78vh white, 74vw 80vh white,
+        82vw 82vh white, 90vw 84vh white, 98vw 86vh white;
+}
+
+
+.stars::before {
+    content: "";
+    position: absolute;
+    width: 2px;
+    height: 2px;
+    background: white;
+    border-radius: 50%;
+    animation: pulse 4s infinite alternate;
+    box-shadow:
+        20vw 10vh white,
+        45vw 25vh white,
+        70vw 15vh white,
+        60vw 40vh white,
+        30vw 55vh white,
+        80vw 65vh white;
+}
+
+
+@keyframes twinkle {
+    0% {
+        opacity: 0.3;
+    }
+
+    25% {
+        opacity: 0.8;
+    }
+
+    50% {
+        opacity: 0.5;
+    }
+
+    75% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0.4;
+    }
+}
+
+@keyframes pulse {
+    from {
+        opacity: 0.5;
+        transform: scale(1);
+    }
+
+    to {
+        opacity: 1;
+        transform: scale(1.6);
+    }
+}
+

@@ -1,0 +1,188 @@
+/* ................................................AKTINSON MONO.................................................. */
+/* https://www.brailleinstitute.org/freefont/ Aktinson hyperlegible font */
+/* //////////////////////////////////////////////////////////////////////////////////////////////////////////////  */
+@font-face {
+    font-family: "AtkinsonMono";
+    src: url("../fonts/AtkinsonHyperlegibleMono/AtkinsonHyperlegibleMono-Bold.otf") format("opentype");
+    font-weight: 700;
+    font-style:normal;
+}
+
+@font-face {
+    font-family: "AtkinsonMono";
+    src: url("../fonts/AtkinsonHyperlegibleMono/AtkinsonHyperlegibleMono-BoldItalic.otf") format("opentype");
+    font-weight: 700;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "AtkinsonMono";
+    src: url("../fonts/AtkinsonHyperlegibleMono/AtkinsonHyperlegibleMono-ExtraBold.otf") format("opentype");
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "AtkinsonMono";
+    src: url("../fonts/AtkinsonHyperlegibleMono/AtkinsonHyperlegibleMono-ExtraBoldItalic.otf") format("opentype");
+    font-weight: 800;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "AtkinsonMono";
+    src: url("../fonts/AtkinsonHyperlegibleMono/AtkinsonHyperlegibleMono-ExtraLight.otf") format("opentype");
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "AtkinsonMono";
+    src: url("../fonts/AtkinsonHyperlegibleMono/AtkinsonHyperlegibleMono-ExtraLightItalic.otf") format("opentype");
+    font-weight: 200;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "AtkinsonMono";
+    src: url("../fonts/AtkinsonHyperlegibleMono/AtkinsonHyperlegibleMono-Light.otf") format("opentype");
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "AtkinsonMono";
+    src: url("../fonts/AtkinsonHyperlegibleMono/AtkinsonHyperlegibleMono-LightItalic.otf") format("opentype");
+    font-weight: 300;
+    font-style: italic;
+}
+@font-face {
+    font-family: "AtkinsonMono";
+    src: url("../fonts/AtkinsonHyperlegibleMono/AtkinsonHyperlegibleMono-Medium.otf") format("opentype");
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: "AtkinsonMono";
+    src: url("../fonts/AtkinsonHyperlegibleMono/AtkinsonHyperlegibleMono-MediumItalic.otf") format("opentype");
+    font-weight: 500;
+    font-style: italic;
+}
+@font-face {
+    font-family: "AtkinsonMono";
+    src: url("../fonts/AtkinsonHyperlegibleMono/AtkinsonHyperlegibleMono-Regular.otf") format("opentype");
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: "AtkinsonMono";
+    src: url("../fonts/AtkinsonHyperlegibleMono/AtkinsonHyperlegibleMono-RegularItalic.otf") format("opentype");
+    font-weight: 400;
+    font-style: italic;
+}
+@font-face {
+    font-family: "AtkinsonMono";
+    src: url("../fonts/AtkinsonHyperlegibleMono/AtkinsonHyperlegibleMono-SemiBold.otf") format("opentype");
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face {
+    font-family: "AtkinsonMono";
+    src: url("../fonts/AtkinsonHyperlegibleMono/AtkinsonHyperlegibleMono-SemiBoldItalic.otf") format("opentype");
+    font-weight: 600;
+    font-style: italic;
+}
+/* ................................................AKTINSON NEXT.................................................. */
+/* https://www.brailleinstitute.org/freefont/ Aktinson hyperlegible font */
+/* //////////////////////////////////////////////////////////////////////////////////////////////////////////////  */
+@font-face {
+    font-family: "AtkinsonNext";
+    src: url("../fonts/AtkinsonHyperlegibleNext/AtkinsonHyperlegibleNext-Bold.otf") format("opentype");
+    font-weight: 700;
+    font-style:normal;
+}
+
+@font-face {
+    font-family: "AtkinsonNext";
+    src: url("../fonts/AtkinsonHyperlegibleNext/AtkinsonHyperlegibleNext-BoldItalic.otf") format("opentype");
+    font-weight: 700;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "AtkinsonNext";
+    src: url("../fonts/AtkinsonHyperlegibleNext/AtkinsonHyperlegibleNext-ExtraBold.otf") format("opentype");
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "AtkinsonNext";
+    src: url("../fonts/AtkinsonHyperlegibleNext/AtkinsonHyperlegibleNext-ExtraBoldItalic.otf") format("opentype");
+    font-weight: 800;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "AtkinsonNext";
+    src: url("../fonts/AtkinsonHyperlegibleNext/AtkinsonHyperlegibleNext-ExtraLight.otf") format("opentype");
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "AtkinsonNext";
+    src: url("../fonts/AtkinsonHyperlegibleNext/AtkinsonHyperlegibleNext-ExtraLightItalic.otf") format("opentype");
+    font-weight: 200;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "AtkinsonNext";
+    src: url("../fonts/AtkinsonHyperlegibleNext/AtkinsonHyperlegibleNext-Light.otf") format("opentype");
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "AtkinsonNext";
+    src: url("../fonts/AtkinsonHyperlegibleNext/AtkinsonHyperlegibleNext-LightItalic.otf") format("opentype");
+    font-weight: 300;
+    font-style: italic;
+}
+@font-face {
+    font-family: "AtkinsonNext";
+    src: url("../fonts/AtkinsonHyperlegibleNext/AtkinsonHyperlegibleNext-Medium.otf") format("opentype");
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: "AtkinsonNext";
+    src: url("../fonts/AtkinsonHyperlegibleNext/AtkinsonHyperlegibleNext-MediumItalic.otf") format("opentype");
+    font-weight: 500;
+    font-style: italic;
+}
+@font-face {
+    font-family: "AtkinsonNext";
+    src: url("../fonts/AtkinsonHyperlegibleNext/AtkinsonHyperlegibleNext-Regular.otf") format("opentype");
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: "AtkinsonNext";
+    src: url("../fonts/AtkinsonHyperlegibleNext/AtkinsonHyperlegibleNext-RegularItalic.otf") format("opentype");
+    font-weight: 400;
+    font-style: italic;
+}
+@font-face {
+    font-family: "AtkinsonNext";
+    src: url("../fonts/AtkinsonHyperlegibleNext/AtkinsonHyperlegibleNext-SemiBold.otf") format("opentype");
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face {
+    font-family: "AtkinsonNext";
+    src: url("../fonts/AtkinsonHyperlegibleNext/AtkinsonHyperlegibleNext-SemiBoldItalic.otf") format("opentype");
+    font-weight: 600;
+    font-style: italic;
+}
