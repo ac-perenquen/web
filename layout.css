@@ -16,6 +16,12 @@ p,hr,h6 {
     margin-bottom: 15px;
 }
 
+.logoImage {
+    max-width: 110px;
+    max-height: 110px;
+    margin: 15px;
+}
+
 .area_left {
     width: 10%;
     display: flex;
@@ -25,6 +31,8 @@ p,hr,h6 {
     overflow-x: hidden;
     padding: 14px;
     box-sizing: border-box;
+        margin-left: 5px;
+
 }
 
 .area_right {
@@ -48,7 +56,6 @@ p,hr,h6 {
 .area_right {
     min-width: 110px;
     max-width: 100%;
-
 }
 
 
